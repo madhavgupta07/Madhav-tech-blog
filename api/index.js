@@ -34,7 +34,7 @@ app.listen(PORT, () => {
 });
 
 
-app.get('/', (req, res) => {
+app.get('/namaste', (req, res) => {
   res.send('Namaste World')
 })
 
